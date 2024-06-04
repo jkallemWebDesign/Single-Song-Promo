@@ -21,7 +21,7 @@ article {
   gap: 0em;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: -79px
+  margin-top: 30px
 }
 
 article section {
@@ -85,6 +85,6 @@ audio{
 img{
   width: 97%;
   margin-left: 12px;
-  margin-bottom: 129px;
-  margin-top: -47px
+  margin-bottom: -5px;
+  margin-top: -50px
 }
