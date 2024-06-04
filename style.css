@@ -1,65 +1,90 @@
-/* CSS Variables */
-:root {
-    /* main UI color */
-    --plyr-color-main: darkgray;
-    /* audio controls background */
-    --plyr-audio-controls-background: black;
-    /* audio controls color */
-    --plyr-audio-control-color: white;
-    /* font family for player */
-    --plyr-font-family: sans-serif;
-    /* font size of player  */
-    --plyr-font-size-time: 16px;
 
-    /* Other optional customiziations */
-    --plyr-audio-control-color-hover:  black;
-    --plyr-audio-progress-buffered-background:  black;
-    --plyr-audio-range-track-background: white;
-    --plyr-tooltip-background: white;
-    --plyr-tooltip-color: black; 
-    --plyr-control-icon-size: 16px;
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Outfit:wght@100..900&display=swap');
+
+
+
+:root{
+  --bgcolor: #0091C4;
+  --primarycolor: #861920;
+  --secondarycolor: #D3C59D;
+  --tertiarycolor: #508037;
+  --titlefont: "Neucha", cursive;
+  --primaryfont: "Outfit", sans-serif;
 }
 
-body {
-    background: gray;
-}
 
-/* Layout */
-main {
-    /* Fixed width center align */
-    max-width: 60em;
-    margin-inline: auto;
-
-    background: lightgray;
-}
-
-main img {
-    /* Fit image to container */
-    max-width: 100%;
-    display: block;
-}
-
-/* Primary Content */
 article {
-    /* flow content horizontally */
-    display: flex;
-    gap: 1em;
-    justify-content: center;
+  background: #27A5D1;
+  display: flex;
+  gap: 0em;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: -79px
 }
 
 article section {
-    /* keep flex'd child same width */
-    flex: 1;
+  background: #86DFFF;
+  margin: .25em;
+  padding: 4px;
+  flex: 3;
 }
 
-/* Footer */
-footer {
-    text-align: center;
+/* Test */
+main{
+  width: 42%;
+  margin: 0 auto;
+  padding: 100px;
+  background: var(--bgcolor);
+  font-family: var(--primaryfont);
+  color: #002633
+
+  
 }
 
-/* Media Queries */
-@media (max-width: 40em) {
-    main article {
-        flex-direction: column;
-    }
+body{
+  background-image: url("https://i.postimg.cc/xd014Q4z/cableknit.jpg");
+  
+  
+}
+
+h1{
+  font-family: var(--titlefont);
+  font-size: 3em;
+  color: var(--secondarycolor);
+  padding: 5px;
+  top: 62px;
+  right: 684px;
+  position: absolute;
+  
+  margin: 0;
+}
+
+h2{
+  font-family: var(--primaryfont);
+  font-size: 2em;
+  color: var(--secondarycolor);
+  padding: 464px;
+  top: 46px;
+  right: 749px;
+  position: absolute;
+}
+
+audio{
+  padding: 9px;
+  top: 576px;
+  right: 558px;
+  position: absolute;
+  margin: 0;
+  width: 769px
+  
+}
+
+
+img{
+  width: 97%;
+  margin-left: 12px;
+  margin-bottom: 129px;
+  margin-top: -47px
 }
