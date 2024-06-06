@@ -56,7 +56,7 @@ h1{
   padding: 5px;
   top: 80px;
   right: 514px;
-  position: absolute;
+  
   
   margin: 0 auto;
 }
@@ -68,7 +68,7 @@ h2{
   padding: 464px;
   top: -54px;
   right: 487px;
-  position: absolute;
+  
 }
 
 audio{
@@ -86,5 +86,5 @@ img{
   width: 97%;
   margin-left: 12px;
   margin-bottom: -5px;
-  margin-top: -50px
+  /* margin-top: -50px */
 }
